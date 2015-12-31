@@ -1,0 +1,80 @@
+*{padding:0; margin:0}
+a {font-family: 'Abel', sans-serif !important;}
+body {background-color:#EEE; font-family: 'Abel', sans-serif;}
+#wrapper {width:1200px;margin:auto}
+
+header {overflow:hidden;margin-top:50px}
+#logo {float:left;width:500px}
+#contacts{float:right;width:320px;color:#333}
+#phone {float:left;width:150px}
+#mail {float:right;width:170px}
+#mail a {color:#333;text-decoration:none}
+#mail a:hover {color:#FF7275}
+
+menu {width:1200px}
+menu li {list-style:none;float:left; margin:40px 0;font-size:26px;text-align:center}
+menu li a {text-decoration:none;color:black}
+menu li a:hover {color:white}
+#list_menu #home {border-bottom:2px solid #FF7275;padding:12px 29px 3px 42px}
+#list_menu #about {border-bottom:2px solid #363;padding:12px 21px 3px 18px}
+#list_menu #services {border-bottom:2px solid #FFCC00;padding:12px 27px 3px 27px}
+#list_menu #blog {color:white;background-color:#009CFF;padding:12px 35px 5px 35px;width:130px}
+#list_menu #contactus {border-bottom:2px solid #F1755C;padding:12px 20px 3px 20px}
+#list_menu #home:hover {background-color: #FF7275}
+#list_menu #services:hover {background-color: #FFCC00}
+#list_menu #about:hover {background-color: #363}
+#list_menu #contactus:hover {background-color: #F1755C}
+#list_menu li #sub1 {display:none;position:absolute;z-index:9}
+#list_menu li:hover #sub1{display:block}
+#sub1 {background-color:#363}
+#sub1 li {float:none;padding:0 30px;margin:10px 0}
+#sub1 li a {color:white;font-size:20px}
+#sub1 li a:hover {color:#99B563}
+#sub2 {display:none;position:absolute;z-index:9; left:137px;top:45px;float:none;background-color:#363;width: 150px}
+#list_menu li ul li:hover #sub2{display:block}
+#sub2 li {float:none;padding:0 10px;margin:10px 0}
+#sub2 li a {color:white !important;font-size:20px;}
+#sub2 li a:hover {color:#99B563 !important}
+
+#search {float:right;width:245px;margin-top:50px}
+#search p {float:left}
+#search_box {float: right;
+background-color: #FEFEFE;
+width: 185px;
+border: 1px solid;
+border-radius: 2px;}
+#searchform {background:transparent;border:none;padding:4px;width:152px}
+#searchbutton {background-image:url(images/icon3.png); background-repeat:no-repeat; border:none;background-color:transparent;width:20px;background-position:2px 4px}
+
+article {overflow:hidden;width:1200px;margin-bottom:40px}
+/*left*/
+#left {float:left;width:900px}
+#left h2 {border-bottom:2px solid black;margin:30px 0;font-size:32px}
+.date {float:left;width:67px}
+.day {color:#FF7275;font-size:43px}
+.month {margin-left:4px;font-size:20px}
+.box {width:800px;margin-bottom:40px;overflow:hidden}
+.box .content h3 {font-size:28px}
+.line2 {width:733px;margin-bottom:20px}
+.box h4 {color:#FF7275;font-size:17px;border-bottom:2px solid #FF7275}
+#left span {float:right;color:black}
+.fa-comments {color:#FF7275}
+.box p {margin:30px 0 40px 0}
+.box a {text-decoration:none;border-color:#000;padding:20px 50px;border:2px solid black;color:black;font-size:18px}
+.box a:hover{color:#F00;border-color:#F00}
+.content {float:right;width:733px;margin-bottom:40px}
+/*right*/
+#right {float:right;width:267px}
+#right h3{font-size:28px;border-bottom:2px solid grey;padding-bottom:5px;margin:15px 0 20px 0}
+#right ul {margin-bottom:30px;margin-left:2px}
+.fa-check-circle {color:#FF7275;margin-right:23px;margin-bottom:10px;display:block !important}
+#right a {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;text-decoration:none;color:black;margin-left:10px;font-size:16px;margin-bottom:5px;margin-right:10px}
+#right a:hover {color:#FF7275}
+
+footer{width:1200px;text-align:center;border-top:2px solid grey;overflow:hidden;margin-bottom:30px}
+footer p {float:left;margin-left:520px;padding:10px 0}
+footer li {float:right;margin-right:498px;padding:10px 0}
+#socmed {float:left;margin:0 535px}
+#socmed a {color:grey;margin-right:10px}
+#socmed a:hover {color:#FF7275}
+.go-top {position:fixed;right:10px;bottom:20px;background-color:rgba(0,0,0,0.5);color:white;padding:15px}

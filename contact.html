@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link href="contact.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="Font/font-awesome-4.2.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+    	<header>
+        	<div id="logo"><a href="Home.html"><img src="images/logo.png"></a></div>
+            <div id="contacts">
+            	<div id="phone"><img src="images/icon1.png"> +1 800 559 6580 | 
+                </div>
+                <div id="mail"><a href=""><i class="fa fa-envelope"></i> mail@demolink.org</a>
+                </div>
+            </div>
+        </header>
+        <menu>
+        	<div id="list_menu">
+            	<ul>
+                	<li><a href="Home.html" id="home">Home</a></li>
+                    <li><a href="About.html" id="about">About Us</a>
+                    	<ul id="sub1">
+                        	<li><a href="">Neque porro</a></li>
+                            <li><a href="">Neque porro</a>
+                            	<ul id="sub2">
+                                	<li><a href="">Neque porro</a></li>
+                                    <li><a href="">Neque porro</a></li>
+                                    <li><a href="">Neque porro</a></li>
+                                    <li><a href="">Neque porro</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Neque porro</a></li>
+                            <li><a href="">Neque porro</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Services.html" id="services">Services</a></li>
+                    <li><a href="Blog.html" id="blog">Blog</a></li>
+                    <li><a href="Contact.html" id="contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="search">
+        	<p>Search:</p>
+        	<div id="search_box">
+        		<form action="search.html" method="post">
+                	<input type="text" id="searchform" placeholder="Enter City or ZIP">
+                    <input type="submit" value="&nbsp;" id="searchbutton">
+                 </form>
+            </div>
+        </div>
+        </menu>
+        
+        <article>
+        	<div id="left">
+            	<h2>CONTACT INFO</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5791.314459817234!2d-80.5269784!3d43.4677528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf1565ffe672b%3A0x5037b28c7231d90!2sWaterloo%2C+ON%2C+Canada!5e0!3m2!1sen!2sid!4v1409816981736" width="500" height="350" frameborder="0" style="border:0"></iframe>
+            	<div id="address">
+                	<div id="alamat">
+                    	<span>8901 Mamora Road,</span>
+                   		<span>Glasgow, D04 89GR.</span>
+                    </div>
+                    <div id="contact">
+                    	<span>Freephone: +1 800 5596580</span>
+                    	<span>Telephone: +1 959 603 6035</span>
+                    	<span>FAX:       +1 800 889 9898 </span>
+                    	<span>Email: <a href="">mail@demolink.org</a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+            	<h2>CONTACT FORM</h2>
+            	<form action="" method="post">
+                	<input type="text" class="name" placeholder="Name*:" required>
+                    <input type="email" class="name" placeholder="Email*:" required>
+                    <input type="text" class="name" placeholder="Phone*:" required>
+                    <textarea placeholder="Message:"></textarea>
+                </form>
+                <a href="">SEND</a>
+            </div>
+        </article>
+        
+         <footer>
+        	<p>&copy; 2014</p><ul><li>PRIVACY POLICY</li></ul>
+            <div id="socmed">
+            	<a href=""><i class="fa fa-facebook-square fa-2x"></i></a>
+                <a href=""><i class="fa fa-linkedin-square fa-2x"></i></a>
+                <a href=""><i class="fa fa-twitter-square fa-2x"></i></a>
+            </div>
+            <a href="" class="go-top"><i class="fa fa-arrow-up fa-2x"></i></a>
+        </footer>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>
+    $(document).ready(function() {
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $('.go-top').fadeIn(200);
+            } else {
+                $('.go-top').fadeOut(200);
+            }
+        });
+        
+        // Animate the scroll to top
+        $('.go-top').click(function(event) {
+            event.preventDefault();
+            
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+    });
+	</script>
+</body>
+</html>
